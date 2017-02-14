@@ -1,0 +1,65 @@
+@font-face {
+  font-family: acherus;
+  src: url('acherus_grotesque_-_regular-webfont.woff') format('woff')
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ECF0F1;
+  overflow-x: hidden;
+  font-family: acherus;
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #f9f9f9;
+  top:50%;
+  left: 50%;
+  width: 300px;
+  height: 270px;
+  margin: -150px 0 0 -150px;
+  padding: 20px;
+}
+
+.login input[type=text], input[type=password] {
+  width: 98%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login button {
+  color: white;
+  background-color: #2C3E50;
+  padding: 14px 20px;
+  margin: 8px 2px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loginActionButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.containerChat {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 40px);
+}

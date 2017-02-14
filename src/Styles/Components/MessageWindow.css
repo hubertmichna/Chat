@@ -1,0 +1,61 @@
+.messageContainer {
+    flex: 10;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 15px;
+    min-width: 0;
+
+}
+
+.singleMessage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 4px 2px 0 2px;
+    min-width: 0;
+    background-color: #ffffff;
+}
+
+.singleMessage > div {
+    margin: 2px;
+    padding: 5px;
+    min-width: 0;
+}
+
+
+.messageInput {
+    display: flex;
+    flex: 1;
+    min-height: 30px;
+    max-height: 50px;
+    margin: 2px;
+
+}
+
+.messageInput input{
+    width: 100%;
+    font-size: 15px;
+    max-height: 50px;
+    min-height: 30px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.messageDelete {
+    float: right;
+    margin: 5px;
+    cursor: pointer !important;
+}
+
+.dragHandle {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E74C3C;
+    min-height: 30px;
+    cursor: grab;
+}
+
+.arrow {
+    align-self: center;
+    cursor: grab;
+}

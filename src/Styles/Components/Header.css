@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #E74C3C;
+    height: 20px;
+    flex: 1;
+    padding: 10px 2px;
+}
+
+.header button {
+    border: none;
+    color: white;
+    background-color: #2C3E50;
+}
